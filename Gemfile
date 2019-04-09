@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.4.6"
+ruby "2.4.4"
 
 # Core
 gem "rails", "~> 5.1"
