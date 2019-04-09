@@ -2,8 +2,8 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Test DatabaseCleaner 
-  config.DatabaseCleaner.allow_remote_database_url = true
-  config.DatabaseCleaner.allow_production = true
+  DatabaseCleaner.allow_remote_database_url = true
+  DatabaseCleaner.allow_production = true
   
   # Code is not reloaded between requests.
   config.cache_classes = true
