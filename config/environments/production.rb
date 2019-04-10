@@ -5,6 +5,9 @@ Rails.application.configure do
   DatabaseCleaner.allow_remote_database_url = true
   DatabaseCleaner.allow_production = true
   
+  export DATABASE_CLEANER_ALLOW_PRODUCTION=true
+  export DATABASE_CLEANER_ALLOW_REMOTE_DATABASE_URL=true
+  
   # Code is not reloaded between requests.
   config.cache_classes = true
 
